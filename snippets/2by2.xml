@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="2by2"
+          fetch="https://github.com/"
+          revision="refs/heads/15" />
+
+  <remote name="2by2-gitlab"
+          fetch="https://gitlab.com/"
+          revision="refs/heads/15" />
+
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <!-- 2by2 Project -->
+  <project path="vendor/2by2" name="2by2-Project/android_vendor_2by2" remote="2by2" revision="14" />
+  <!--<project path="vendor/statix" name="2by2-Project-Lite/android_vendor_statix" remote="2by2" />-->
+
+  <!-- Certification -->
+  <project path="vendor/2by2-example-keys" name="2by2-Project/android_vendor_2by2-example-keys" remote="2by2" revision="14" />
+
+</manifest>
